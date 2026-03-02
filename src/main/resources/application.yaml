@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: urlshortener
+  datasource:
+    url: jdbc:mysql://localhost:3306/urlShortener?createDatabaseIfNotExist=true
+    username: root
+    password: mYsqlcuank1303
+
+paymentType: "paypal" #"stripe"

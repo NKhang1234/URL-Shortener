@@ -1,6 +1,10 @@
 package com.khangpham.urlshoterner;
 
-public class StripePayment implements PaymentService {
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Service;
+
+@Service
+public class StripeService implements PaymentService {
 
     @Override
     public void purchase(int amount) {
